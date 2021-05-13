@@ -82,11 +82,10 @@ section p
   color: aliceblue;
   /* border: 1px solid; */
   
-  padding: 2px 20% 2px 20%;
   text-align: center;
   justify-content: center;
   margin: 20px;
-  font-size: 18px;
+  font-size: 10px;
 }
 button
 {
@@ -152,8 +151,11 @@ footer img
   image-resolution: 150px;
   /* border: 2px solid; */
 }
+<<<<<<< HEAD
 @media only screen and (min-width: 400px) {
   body {
     background-image: url(./Media/3124520.jpg);
   }
 }
+=======
+>>>>>>> 0f368ec7eb83dc87dc57f4ee193272d3f0b76d5f
