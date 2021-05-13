@@ -6,7 +6,7 @@ body
 {
   background-color: rgba(14, 14, 14, 0.795);
   background-image: url(./Media/pizza-3007395_1920.jpg);
-  background-attachment: fixed;
+  background-attachment:scroll ;
   background-position: center;
   background-blend-mode:multiply;
 }
@@ -151,4 +151,9 @@ footer img
 {
   image-resolution: 150px;
   /* border: 2px solid; */
+}
+@media only screen and (min-width: 400px) {
+  body {
+    background-image: url(./Media/3124520.jpg);
+  }
 }
