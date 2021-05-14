@@ -1,4 +1,4 @@
-header {
+/* header {
   display: flex;
   border: 1px solid black;
   justify-content: flex-start;
@@ -25,7 +25,7 @@ header ul li a {
   text-decoration: none;
   display: flex;
   color: white;
-  padding: 5px;
+  padding: 2px;
   font-size: 20px;
   border-radius: 15px;
   /* border: 1px solid black; */
@@ -43,4 +43,4 @@ header ul li a:hover
     justify-content: center;
     align-items: center;
   }
-}
+} */
