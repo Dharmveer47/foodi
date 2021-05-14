@@ -38,14 +38,28 @@ header ul li a:hover
   background-color: rgba(255, 235, 205, 0.623);
 
 }
+main
+{
+  background-image: url(./Media/pizza-3007395_1920.jpg);
+  background-attachment: fixed;
+  color: rgb(235, 225, 225);
+  background-blend-mode:overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.842);
+}
 main div h1
 {
   text-align: center;
   font-style:oblique;
+  font-weight: bolder;
 }
 main div p
 {
   text-align:center;
+  font-style: oblique;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @media only screen and (max-width: 600px) {
 
