@@ -63,8 +63,9 @@ h1
   /* transform: rotate(10deg);
   transform: skewY(10deg); */
 }
-main div p
+p
 {
+  font-size: 14px;
   text-align:center;
   font-style: oblique;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
