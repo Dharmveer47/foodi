@@ -145,6 +145,10 @@ footer span p
   justify-content: space-around;
   padding: 5%;
 }
+#footer-p
+{
+  font-size:12px;
+}
 footer span p b
 {
   font-size: 20px;
