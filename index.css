@@ -126,7 +126,7 @@ main p{
 }
 footer
 {
-  background-color: rgb(51, 45, 35);
+  background-color: rgba(51, 45, 35, 0.815);
   margin: 0%;
   padding: 0%;
   display: flex;
@@ -151,23 +151,60 @@ footer span p b
   font-weight: bolder;
   font-style: oblique;
 }
-
-#mobile
+#main
 {
-  background-color: antiquewhite;
   display: flex;
+  justify-content: space-around;
 }
-#mobile1
-{
-  color: black;
-  text-align: center;
+#main h2 {
+  margin: 3%;
+}
+#main h2 p{
+  margin: 4%;
+}
 
+#end
+{
+  background-color: rgba(0, 0, 0, 0.644);
+  display: flex;
+  justify-content: space-around;
 }
+#heading
+{
+  text-transform:uppercase;
+  font-size: large;
+  font-weight: bold;
+}
+#end ul 
+{
+  list-style: none;
+}
+#end ul li
+{
+  padding: 3%;
+}
+#end ul li a
+{
+  padding: 2%;
+  text-decoration: none;
+  color: white;
+}
+#end ul li a:hover
+{
+  background-color: rgba(255, 255, 255, 0.753);
+  color: black;
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 600px) {
 
   header {
     display:flex;
     justify-content: center;
     align-items: center;
+  }
+  #mobile
+  {
+    display: none;
   }
 }
