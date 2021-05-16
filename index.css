@@ -208,12 +208,20 @@ footer span p b
   background-color: rgba(0, 0, 0, 0.918);
   background-blend-mode: multiply;
 } */
+#mobile
+{
+  display: flex;
+}
 @media only screen and (max-width: 600px) {
 
   header {
     display:flex;
     justify-content: center;
     align-items: center;
+  }
+  footer
+  {
+    display: none;
   }
   #mobile
   {
