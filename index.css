@@ -127,7 +127,7 @@ button:hover
   border-radius: 10px;
   cursor: pointer;
   border-color: tomato;
-  transition: 4s;
+  transition: 3s;
 }
 
 .find{
@@ -232,7 +232,7 @@ footer span p b
 }
 #end ul li
 {
-  padding: 3%;
+  padding: 5px;
 }
 #end ul li a
 {
