@@ -232,7 +232,9 @@ footer span p b
 }
 #end ul li
 {
+
   padding: 5px;
+  flex-wrap: wrap;
 }
 #end ul li a
 {
@@ -265,7 +267,7 @@ footer span p b
     display:flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
   }
   
   footer
