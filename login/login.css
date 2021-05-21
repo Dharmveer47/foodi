@@ -110,4 +110,6 @@ main p
 #logo span>img
 {
   width: 100px;
+  transform:skew(-10deg);
+  border: rgb(248, 248, 248) solid;
 }
