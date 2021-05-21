@@ -7,92 +7,107 @@ body {
   color: rgb(255, 243, 225);
   /* border: solid; */
   font-family: sans-serif;
-  
 }
 body div h1 {
   /* border: solid 1px; */
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   display: flex;
-  font-family: 'Pattaya', sans-serif;
-  background-image: linear-gradient(to right, rgb(248, 248, 248) , rgb(255, 251, 0));
+  font-family: "Pattaya", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 248, 248),
+    rgb(255, 251, 0)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 main {
   /* background-color: burlywood; */
-  background-color: rgba(0, 0, 0, 0.514);
-  margin: 10% 20% ;
-  border: rgba(248, 224, 189, 0.308) solid;
+  /* background-color: rgba(0, 0, 0, 0.514); */
+  margin: 10% 20%;
+  /* border: rgba(248, 224, 189, 0.308) solid; */
   background-attachment: fixed;
 }
 main > p {
   /* border: solid; */
-  padding: .5rem;
+  padding: 0.5rem;
   display: flex;
-  border-bottom: 3px  solid rgba(255, 0, 0, 0.685);
+  border-bottom: 3px solid rgba(255, 0, 0, 0.685);
   color: aqua;
   justify-content: center;
   text-transform: capitalize;
 }
-main form div  {
+main form div {
   text-align: center;
   /* background-color: brown; */
 }
-main form div>div
-{
-    display: flex;
-    justify-content: center;
+main form div > div {
+  display: flex;
+  justify-content: center;
 }
-main form div>div input
-{
-    margin: 5px;
-    background-color: transparent;
-    /* border-bottom: 3px solid whitesmoke; */
-    border-right: none;
-    border-left: none;
-    border-top:none ;
-    color: white;
+main form div > div input {
+  margin: 5px;
+  background-color: transparent;
+  /* border-bottom: 3px solid whitesmoke; */
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  color: white;
 }
-main form div>div input:hover
-{
-    margin: 5px;
-    background-color: transparent;
-    border-bottom: 3px solid whitesmoke;
-    border-right: none;
-    border-left: none;
-    border-top:none ;
-    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+main form div > div input:hover {
+  margin: 5px;
+  background-color: transparent;
+  border-bottom: 3px solid whitesmoke;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-main form div>div input::placeholder
-{
-    color: whitesmoke;
-    text-transform:capitalize;
-    color: white;
-    /* font-size: 1rem; */
+main form div > div input::placeholder {
+  color: whitesmoke;
+  text-transform: capitalize;
+  color: white;
+  /* font-size: 1rem; */
 }
 .redio {
   /* border: 1px solid black; */
   display: flex;
   padding: 2px;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
-.redio input
-{
-    padding: 2px;
+.redio input {
+  padding: 2px;
 }
-button
-{
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    border:white 2px solid;
-    padding: 2px 70px;
+button {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border: white 2px solid;
+  padding: 2px 70px;
 }
-button:hover
+button:hover {
+  color: black;
+  background-color: white;
+}
+main p
 {
-    color: black;
-    background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#logo
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo span
+{
+  padding: 10px;
+}
+#logo span>img
+{
+  width: 100px;
 }
