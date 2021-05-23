@@ -8,6 +8,10 @@ body {
   /* border: solid; */
   font-family: sans-serif;
 }
+input
+{
+  outline:none;
+}
 body div h1 {
   /* border: solid 1px; */
   align-items: center;
